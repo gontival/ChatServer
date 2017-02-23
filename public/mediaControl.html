@@ -1,0 +1,20 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title></title>
+	<meta charset="utf-8" />
+</head>
+<body>
+    <video id="media" height="600">
+        <source src="hololens.webm" type='video/webm; codecs="vorbis, vp8"' />
+        <source src="hololens.ogv" type='video/ogg; codecs="theora, vorbis"' />
+        <source src="hololens.mp4" type='video/mp4; codecs="avc1.42E01E, mp4a.40.2"' />
+        <track id="englishtrack" kind="subtitles" src="captions.vtt" srclang="en" label="English" default=""/>
+    </video>
+    <br/>
+    <button type="button" id="play">Play</button>
+    <script src="Scripts/jquery-3.1.1.js"></script>
+    <script src="Scripts/mediaControl.js"></script>
+</body>
+</html>

@@ -21,6 +21,7 @@ Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "chat_service", ".", "{5CCCF
 		Release.AspNetCompiler.FixedNames = "false"
 		Release.AspNetCompiler.Debug = "False"
 		VWDPort = "53391"
+		SlnRelativePath = "..\chat_service\"
 	EndProjectSection
 EndProject
 Global
