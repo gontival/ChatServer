@@ -8,7 +8,7 @@ app.use(express.static(__dirname + '/public'));
 
 // map a request for the root to the index.html file
 app.get('/', function (req, res) {
-    res.sendfile(__dirname + '/public/index.html');
+    res.sendFile(__dirname + '/public/index.html');
 });
 
 //redirect the user to the default.html page if the URL does not include a file name
